@@ -11,3 +11,4 @@ function projectClick(e) {
     // the object that triggered the event     
     $(this).css("background-color", "#7fff00");
 }
+initializePage();
