@@ -1,9 +1,6 @@
 function initializePage(){
-	$("#testjs").click(function(e) {
-		$('.jumbotron hl').text("Javascript is connected");
-	});
 	$("a.thumbnail").click(projectClick);
-	
+}
 function projectClick(e) {
     // prevent the page from reloading   
     e.preventDefault();
